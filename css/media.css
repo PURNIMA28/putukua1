@@ -1,0 +1,140 @@
+
+.media{
+display: block;
+}
+.mediam{
+  display: none;
+}
+.orbg{
+  background-image: radial-gradient(circle, white 5%, #FF6611 95%) !important;
+}
+.brbg{
+    background-image: radial-gradient(circle, white 20%, #7C3C21 80%) !important;
+
+}
+.whbg{
+      background-image: radial-gradient(circle,#FF6611 20%, #F2EEE5 80%) !important;
+}
+.white{
+background-color: #F2EEE5 !important;
+background-image: none !important;
+}
+.p{
+
+}
+.ourproduct{
+  padding: 0 !important;
+}
+* {
+  box-sizing: border-box;
+}
+.socials{
+  height: 25px !important;
+}
+.blogphoto{
+  height: 500px !important;
+
+
+}
+.blogcontent{
+    height: 500px !important;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.video{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+height:100%;
+ width:80%;
+}
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 25%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 5px 5px 5px 0px #7C3C21;
+}
+
+/* Pricing header */
+.price .header {
+
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  /* border: 1px solid #FF6611; */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+.zoom {
+  padding: 20px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* The "Sign Up" button */
+/* .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+} */
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 640px) {
+  .columns {
+    width: 100%;
+  }
+/* }
+
+@media (max-width:600px) { */
+  /* .media{
+  display: none;
+  }
+  .mediam{
+    display: block !important;
+  } */
+.p{
+  margin-right: 200px;
+}
+  .video{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:50%;
+   width:90%;
+  }
+}
